@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+      background-color: darkkhaki;
+      font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1{
+      background-color: lightgray;
+      height: 300px;
+      width: 300px;
+/*configurando borda*/
+      /*shorthand -> width style color*/
+      border: 10px solid darkslategray;
+
+      /*tradicional
+      sequencia correta 
+
+      border-width: 10px;
+      border-style: solid;
+      border-color: darkslategray;
+      */
+
+/*configurando padding*/
+      /*shorthand*/
+      padding: 10px 10px 10px 10px;
+      /*ou posso colocar
+      padding: 10px
+      vai equivaler 10 px para top, right, bottom e left*/
+
+      /*tradicional
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      */
+/*configurando margem*/      
+      margin: 20px auto 50px auto;
+
+/*configurando outiline*/
+      outline: 10px dashed black;
+}
+
+a{
+      border: 5px outset purple;
+
+      padding: 10px;
+
+      margin: 10px;
+
+      outline: 5px dashed blue;
+
+}
