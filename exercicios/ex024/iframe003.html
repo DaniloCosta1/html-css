@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>uso de iframes</title>
+      <style>
+            body{
+                  font-family: Arial, Helvetica, sans-serif;
+            }
+
+            iframe#tela{
+                  width: 95vw;
+                  border: 2px solid black;
+                  height: 400px;
+            }
+      </style>
+</head>
+<body>
+      <h1>Faça uma escolha</h1>
+      
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, amet recusandae. Eos cumque fuga, veniam iusto omnis consectetur itaque labore neque, libero corporis nulla illum, fugiat ea sapiente suscipit aut?</p>
+
+      <ul>
+            <li><a href="pages/page001.html" target="frame">Primeira página</a></li>
+            <li><a href="pages/page002.html" target="frame">Segunda página</a></li>
+            <li><a href="pages/page003.html" target="frame">Terceira página</a></li>
+      </ul>
+
+
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus blanditiis nisi iste dignissimos illo. Provident aperiam itaque omnis harum assumenda beatae at, numquam nisi architecto, ipsam totam doloribus tempora. Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+
+      <iframe id="tela" name="frame" srcdoc="<h1> Escolha uma das opções acima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod ipsa velit ea iure quas, id dolores modi laudantium saepe blanditiis accusamus sed at officiis commodi non dolorem reprehenderit suscipit repellendus?</p><img src='imagens/cidade.png'>">
+            <p>Infelizmente seu navegador não é compatível com isto!</p>
+      </iframe>
+
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure est facere dicta, ut non aspernatur accusantium perspiciatis cum tempora numquam voluptatem dolores pariatur odit ab hic atque laudantium eos alias.</p>
+</body>
+</html>
