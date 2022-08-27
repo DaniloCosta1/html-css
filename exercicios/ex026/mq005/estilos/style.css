@@ -20,12 +20,14 @@ header > h1{
 }
 
 span#burger{
-      background-color: rgb(206, 77, 249);
+      background-color: rgb(37, 249, 0);
       color: white;
       display: block;
       text-align: center;
       padding: 10px;
       cursor: pointer;
+      border-top: 3px solid rgb(3, 51, 210);
+      border-bottom: 3px solid rgb(3, 51, 210);
 }
 
 span#burger:hover{
